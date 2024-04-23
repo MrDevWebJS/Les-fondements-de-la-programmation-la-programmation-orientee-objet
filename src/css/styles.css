@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Tangerine:wght@400;700&display=swap');
+
+*,
+::before,
+::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    block-size: 100vh;
+    background: #323646;
+}
+
+.container{
+    inline-size: 75%;
+    block-size: 100%;
+    padding: 1rem;
+    background: #f1f1f1;
+}
+
+.container__title{
+    font-family: "Tangerine", "sans serif";
+    font-size: 4rem;
+    color: #323646;
+    text-align: center;
+}
+
+.title__part1,
+.title__part2{
+    display: block;
+}
+
+.container__main{
+    display: flex;
+    flex-direction: column;
+    inline-size: 100%;
+    padding: 1rem 0;
+}
+
+.main__card{
+    inline-size: 100%;
+    block-size: auto;
+    padding: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.card__title{
+    font-family: "Cormorant Garamond", 'sans-serif';
+    color: #323646;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.25rem;
+}
+
+.card__image{
+    inline-size: 100%;
+    block-size: auto;
+    border-radius: 0.5rem;
+    padding: 0.25rem;
+}
